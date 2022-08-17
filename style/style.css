@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1024px;
+
+}
+.Box{
+    width: 750px;
+    height: 400px;
+    background-color: black;
+    margin-top: 60px;
+    margin-left: 600px;
+    border-radius: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Box .p1, .p2, .p3 {
+    color: white;
+}
+.p1{
+    font-size: 36px;
+}
+.order {
+    width: 750px;
+    height: 70px;
+    margin-top: 400px;
+    background-color: rgb(203, 145, 1);
+    margin-left: 600px;
+    border-radius: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order p {
+    font-size: 20px;
+}
+.order a {
+    color: black;
+    padding: 50px;
+}
